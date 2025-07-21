@@ -12,6 +12,7 @@ from botocore.exceptions import ClientError
 from xml.etree import ElementTree
 from math import ceil, sqrt
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
+import time
 
 # Initialize AWS clients
 s3_client = boto3.client('s3')
